@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: fit-content;
+  background-color: #eff0f4;
+}
+header{
+  width: 100%;
+  height: 95%;
+  background-image: url("../Images/0189dc41b29bebf815fbedf42749909d.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5em 2em;
+}
+#websiteName{
+  font-size: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+nav ul li{
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#userData{
+  width: 100%;
+  height: 90vh;
+  padding: 2em 15em;
+}
+#userData form{
+  display: flex;
+  flex-wrap: wrap;
+}
+#userData form label{
+  margin:  2em 1em;
+}
+#userData form input[type='text'],#userData form input[type='date'],#userData form select, #userData form input[type='File']{
+  width: 250px;
+  height: 30px;
+  padding: 0 .5em ;
+  margin: .2em  0;
+  outline: none;
+}
+#userData form input[type='submit']{
+  width: 200px;
+  height: 40px;
+  padding: 0 .5em ;
+  margin: .2em  0;
+  outline: none;
+  margin-top: 3em;
+  margin-left: 1em;
+  background-color:#69e6ff ;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}

@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 20em;
+  background-color: #f6f6f6;
+}
+#productSection{
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  justify-content: space-around;
+  padding: .5em 0em;
+  background-color: #fff;
+}
+#imageSide{
+  width: 40%;
+  height: 100%;
+  background-color: #eaeff3;
+  padding-top: 1.5em;
+}
+#imageSide img{
+  width: 100%;
+}
+#ContentSide{
+  width: 48%;
+  height: 100%;
+  padding-top: 1em;
+
+}
+#ContentSide h2:nth-child(1){
+  width: 100%;
+  font-weight: normal;
+}
+#ContentSide h2:nth-child(2){
+  margin: .5em 0;
+  font-weight: normal;
+}
+#ContentSide p{
+  margin-bottom: .5em ;
+}
+#ContentSide label{
+  font-weight: bold;
+}
+#ContentSide select{
+  margin-bottom: .5em ;
+  outline: none;
+}
+
+
+/* Billing Details */
+
+
+#billingDetails{
+  width: 100%;
+  height: 45vh;
+  padding: .5em 0em;  
+  background-color: #fff;
+}
+#billingDetails h2{
+  text-align: start;
+  margin: 1em 0;
+  padding: 0 2em;
+  display: block;
+}
+#billingDetails #form{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#billingDetails input{
+  width: 280px;
+  height: 30px;
+  margin: .5em 0;
+  padding: .2em .5em ;
+  outline: none;
+}
+
+/* Payment Inforamtion */
+#PaymentInforamtion{
+  width: 100%;
+  height: 45vh;
+  padding: .5em 0em;  
+  background-color: #fff;
+}
+#PaymentInforamtion h2{
+  text-align: start;
+  margin: 1em 0;
+  padding: 0 2em;
+}
+
+.paypal-radio {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  width: fit-content;
+  cursor: pointer;
+  margin-left: 3em;
+}
+
+.paypal-radio input[type="radio"] {
+  margin-right: 10px;
+}
+
+.paypal-radio img {
+  height: 20px;
+  margin-left: 10px;
+}
+
+/* Order Summrey */
+#OrderSummrey{
+  width: 100%;
+  height: 50vh;
+  padding: .5em 1em;  
+  background-color: #fff;
+}
+#OrderSummrey h2{
+  text-align: start;
+  margin: 1em 1em;
+}
+#OrderSummrey p{
+  width: 90%;
+  margin: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#OrderSummrey p:nth-child(5){
+  font-weight: bold;
+}
+#OrderSummrey input{
+  border: none;
+  outline: none;
+}
+#po{
+  width: 220px;
+  height: 35px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 16em;
+  margin-top: 2em;
+  background-color: #5ac6dc;
+  color: #fff;
+}

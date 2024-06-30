@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#main-Container{
+  width: 50%;
+  height: 450px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9ecf5;
+  border-radius: 5px;
+  margin-top: 4em;
+}
+#ImageSide{
+  width: 49%;
+  height: 100%;
+  background-image: url("../Images/freepik-export-202406211347547qy8.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2em 0;
+}
+#ImageSide h2{
+  text-align: center;
+  color: #fff;
+}
+#FormSide{
+  width: 51%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#FormSide form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f4f5;
+  border-radius: 10px;
+}
+#FormSide form h1{
+  color: #5ac6dc;
+  margin-top: 1em;
+}
+
+#FormSide form input[type='text'], #FormSide form input[type='password']{
+  border: none;
+  border-bottom: 3px solid #5ac6dc;
+  outline: none;
+  width: 220px;
+  height: 35px;
+  padding: 1em 0;
+  background: transparent;
+} 
+#FormSide form input[type='file']{
+  width: 220px;
+  height: 35px;
+  padding: 1em 0;
+}
+
+#FormSide form label{
+  color: #5ac6dc;
+  font-weight: bold;
+  margin-top: .5em;
+}
+input[type="submit"]{
+  width: 180px;
+  height: 30px;
+  background-color: #5ac6dc;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin-top: 1em;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#rigester{
+  font-size: 13px;
+  margin-top: 4em;
+}
+#rigester a{
+  text-decoration: none;
+}

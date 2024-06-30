@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Product</title>
+  <link rel="stylesheet" href="./CSS/addProduct.css">
+  <link rel="stylesheet" href="./CSS/products.css">
+</head>
+
+<body>
+  <main>
+    <div id="sideBar">
+      <a href="index.php" id="name">
+        <h1>WebsiteName</h1>
+      </a>
+      <ul>
+        <li><a href="index.php">Orders</a></li>
+        <li><a href="Products.php">Products</a></li>
+        <li><a href="addProduct.php" id="selected">Add Products</a></li>
+        <li><a href="Users.php">Users</a></li>
+        <li><a href="#">Messages</a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <form action="addProduct.php" method="post" enctype="multipart/form-data">
+        <h1>Add Product</h1>
+        <label for="">Product Name <br> <input type="text" name="productName" placeholder="Product Name"></label>
+        <label for="">Product Price <br> <input type="text" name="productPrice" placeholder="Product Price"></label>
+        <label for="">Product Description <br> <textarea name="productDisc" placeholder="Product Discription" rows="5" cols="35"></textarea></label>
+        <label for="">Product Image <br> <input type="file" name="productImg"></label>
+        <input type="submit" value="Add Product" name="addBtn" id="subBtn">
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
